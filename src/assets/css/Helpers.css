@@ -1,0 +1,140 @@
+
+.outline-all {
+    border: lightgray thin solid !important;
+}
+
+/** Padding and Margin**/
+.no-padding {
+    padding: 0 !important;
+}
+
+.no-margin {
+    margin: 0 !important;
+}
+
+.tiny-padding {
+    padding: 0.5em;
+}
+
+.tiny-padding-top {
+    padding-top: 0.5em;
+}
+
+.tiny-padding-bottom {
+    padding-bottom: 0.5em;
+}
+
+.padding-1em {
+    padding: 1em;
+}
+
+.padding-top-1em {
+    padding-top: 1em !important;
+}
+
+.padding-btm-1em {
+    padding-bottom: 1em !important;
+}
+
+.padding-top-2em {
+    padding-top: 2em !important;
+}
+
+.padding-btm-2em {
+    padding-bottom: 2em !important;
+}
+
+.padding-top-4em {
+    padding-top: 4em !important;
+}
+
+.padding-btm-4em {
+    padding-bottom: 4em !important;
+}
+
+.tiny-margin {
+    margin: .5em;
+}
+
+.tiny-margin-top {
+    margin-top: .5em;
+}
+
+.tiny-margin-bottom {
+    margin-bottom: .5em;
+}
+
+.margin-1em {
+    margin: 1em;
+}
+
+.margin-btm-1em {
+    margin-bottom: 1em !important;
+}
+
+.margin-top-1em {
+    margin-top: 1em !important;
+}
+
+.margin-btm-2em {
+    margin-bottom: 2em !important;
+}
+
+.margin-top-2em {
+    margin-top: 2em !important;
+}
+
+.margin-btm-4em {
+    margin-bottom: 4em !important;
+}
+
+.margin-top-4em {
+    margin-top: 4em !important;
+}
+
+
+/*Fonts*/
+.font-sm {
+    font-size: .8em !important;
+}
+
+.font-lg {
+    font-size: 2em !important;
+}
+
+.font-xl {
+    font-size: 3em !important;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+/*Depth*/
+.z-depth-0, .z-depth-0-hover:hover {
+    box-shadow: none !important;
+}
+
+.z-depth-1, .z-depth-1-hover:hover, .card-panel, .card, .panel, .toast, .dropdown-content, .collapsible {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+.z-depth-1-half, .z-depth-1-half-hover:hover, .card:hover, .panel:hover, tbody > tr:hover {
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+}
+
+.z-depth-2, .z-depth-2-hover:hover {
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+}
+
+.z-depth-3, .z-depth-3-hover:hover {
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3);
+}
+
+.z-depth-4, .z-depth-4-hover:hover, .modal {
+    box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);
+}
+
+.z-depth-5, .z-depth-5-hover:hover {
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,90 @@
+.article-card {
+    margin-bottom: 2em;
+}
+
+.article-card .line {
+    background-color: #026E33;
+    border: 2px solid #026E33;
+    border-radius: 2px;
+    width: 186px;
+}
+
+.article-card .body {
+    margin-left: 45px;
+    margin-right: 20px;
+}
+
+.article-card h3 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 2.2px;
+    color: #000000;
+    font-size: 20px;
+}
+
+.article-card h3 a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.article-card p {
+    font-family: "Source Serif Pro", serif;
+    font-weight: normal;
+    letter-spacing: 0;
+    color: #484848;
+}
+
+.article-card .body > a {
+    text-decoration: underline;
+    letter-spacing: 0;
+    color: #2B8654;
+    text-transform: lowercase;
+}
+
+.article-card.loading .line {
+    border: 2px solid #d9ecd2;
+}
+
+.article-card.loading h3 {
+    height: 20px;
+    width: 80%;
+}
+
+.article-card.loading p {
+    height: 100px;
+    width: 100%;
+}
+
+.article-card.loading .line,
+.article-card.loading h3,
+.article-card.loading p {
+    -webkit-animation: bgLoading 2s infinite; /* Safari 4+ */
+    -moz-animation: bgLoading 2s infinite; /* Fx 5+ */
+    -o-animation: bgLoading 2s infinite; /* Opera 12+ */
+    animation: bgLoading 2s infinite; /* IE 10+, Fx 29+ */
+}
+
+.article-card.loading span {
+    height: 10px;
+    width: 30%;
+    display: block;
+    -webkit-animation: bgLoading 2s infinite; /* Safari 4+ */
+    -moz-animation: bgLoading 2s infinite; /* Fx 5+ */
+    -o-animation: bgLoading 2s infinite; /* Opera 12+ */
+    animation: bgLoading 2s infinite; /* IE 10+, Fx 29+ */
+}
+
+/**
+* For Tablet
+ */
+@media only screen and (min-width: 600px) {
+}
+
+/**
+* For Desktop
+ */
+@media only screen and (min-width: 1025px) {
+
+}
+

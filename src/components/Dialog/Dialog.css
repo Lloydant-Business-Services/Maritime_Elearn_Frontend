@@ -1,0 +1,69 @@
+.dialog {
+    margin: 50px 10px;
+    width: 100%;
+    width: -webkit-fill-available;
+    background-color: #F6FAF4;
+    border: 1px solid #026E33;
+    box-shadow: 0 3px 6px #00000029;
+    overflow-y: initial !important
+}
+
+.dialog:focus {
+    outline: none;
+}
+
+.dialog .modal-body {
+    max-height: 230px;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.dialog .modal-title {
+    padding: 10px;
+    margin: 0;
+    line-height: 30px;
+}
+
+.dialog .modal-footer {
+    padding: 10px;
+    border-top: 1px solid #026E33;
+    margin-top: 10px;
+}
+
+.dialog-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(217, 236, 210, 0.9);
+}
+
+/**
+* For Tablet
+ */
+@media only screen and (min-width: 600px) {
+    .dialog {
+
+    }
+
+}
+
+/**
+* For Desktop
+ */
+@media only screen and (min-width: 1025px) {
+    .dialog {
+        margin: 100px auto;
+        width: 600px;
+    }
+
+    .dialog .modal-body {
+        max-height: 330px;
+    }
+
+    .dialog .modal-title {
+        line-height: 40px;
+    }
+}
+

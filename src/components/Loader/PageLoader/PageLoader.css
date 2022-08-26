@@ -1,0 +1,46 @@
+/*Page loader*/
+div#page-loader {
+    background-color: rgba(255, 255, 255, 0);
+    position: fixed;
+    top: 0;
+    left: 0px;
+    z-index: 9000;
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+
+div#page-loader img {
+    max-height: 100px;
+}
+
+div#page-loader div {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin: auto;
+    width: 250px;
+    color: black;
+    padding: 20px 30px;
+    background-color: white;
+    border: #e0e0e0 thick solid;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+/**
+* For Tablet
+ */
+@media only screen and (min-width: 600px) {
+}
+
+/**
+* For Desktop
+ */
+@media only screen and (min-width: 1025px) {
+
+}
+
